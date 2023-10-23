@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paired devices</title><style>
+            .History{
+            background-color: aliceblue;
+            height: 300px;
+        }
+        .Box{
+            background-color: white;
+            border-width: 1px;
+            border-color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body style="background-color: cadetblue;">
+    <div>
+    <h1><a href="Homepage.html"><button><p>< Return to homepage</p></a></button></h1>
+    </div>
+    <div class="History">
+        <h2><p id="demo">22X10 MERC Camera system
+            <button onclick="myFunction()">Remove device?</button>
+            
+            <script>
+            function myFunction() {
+              const element = document.getElementById("demo");
+              element.remove();
+            }
+            </script></h2>
+    <h2><a href="Pairing.html"><button>Pair new device?</button></h2>
+    </div>
+
+</body>
+</html>
